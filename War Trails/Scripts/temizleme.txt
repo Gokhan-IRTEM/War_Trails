@@ -1,0 +1,55 @@
+countdownUIcontroller tamamen silindi
+Rotate tamamen silindi
+pausecontroller tamamen silindi
+mainmenucontroller tamamen silindi
+
+
+gameoverUIcontroller
+OnEnable
+MainMenuBottonClicked
+silindi
+
+MainMenuController
+QuitButtonClicked
+StartButtonClicked
+SetLevel
+SetDifficulty
+silindi
+
+GameManager
+Gamestate silindi
+gamediffuculty silindi
+onaplicationquit silindi
+loadlevelAsync silindi
+
+RaceManager
+Racetime silindi
+pauseinput silindi
+place comparer silindi
+GetAgentTime silindi
+GetAgentPlace silindi
+GetAgentLap silindi
+GetAgentNextCheckpoint silindi
+Ondestroy silindi
+OnStateChange silindi
+[Serializable]DifficultyModel silindi
+AircraftStatus silindi      
+
+HudController
+UpdacePlaceText silindi      
+UpdateTimeText silindi      
+UpdateLapText silindi      
+UpdateArrow silindi      
+
+AircraftPlayer 
+ondestroy silinebilir ondan dolayı gizlendi
+
+AircraftArea 
+Start silindi(boştu)
+
+AircraftAgents
+[Header("Explosioin Stuff")] gizlendi ikiside işimize yaramaz şuan silinebilir
+[Header("The game object of the explosion particle effect")] gizlendi
+OnCollisionEnter gizlendi silinebilir
+IEnumerator ExplosionReset gizlendi silinebilir
+

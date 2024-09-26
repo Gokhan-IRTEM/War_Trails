@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1684351299",
+        "python_version": "3.8.0 (tags/v3.8.0:fa919fd, Oct 14 2019, 19:37:50) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python38\\Scripts\\mlagents-learn",
+        "mlagents_version": "0.20.0",
+        "mlagents_envs_version": "0.20.0",
+        "communication_protocol_version": "1.1.0",
+        "tensorflow_version": "2.12.0",
+        "numpy_version": "1.24.3",
+        "end_time_seconds": "1684351308"
+    },
+    "total": 8.884552800000002,
+    "count": 1,
+    "self": 0.14109950000000282,
+    "children": {
+        "run_training.setup": {
+            "total": 0.023457199999999734,
+            "count": 1,
+            "self": 0.023457199999999734
+        },
+        "TrainerController.start_learning": {
+            "total": 8.7199961,
+            "count": 1,
+            "self": 0.0007147999999990162,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 8.7186416,
+                    "count": 1,
+                    "self": 8.7186416
+                },
+                "trainer_threads": {
+                    "total": 1.0000000010279564e-06,
+                    "count": 1,
+                    "self": 1.0000000010279564e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 0.000638699999999659,
+                    "count": 1,
+                    "self": 0.000638699999999659
+                }
+            }
+        }
+    }
+}

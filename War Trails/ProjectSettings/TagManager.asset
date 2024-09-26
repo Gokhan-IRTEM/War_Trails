@@ -3,12 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Wing
+  - checkpoint
+  - agent
+  - User Aircaft
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - TrainingCheckpoints
   - Water
   - UI
   - 
